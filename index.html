@@ -1,0 +1,397 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Quiz de Escalas</title>
+</head>
+
+<body>
+    <h3 class="text-center ">Quiz de Escalas <span>
+
+            <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_tHEtXH.json" background="transparent"
+                speed="1" style="width: 100px; height: 100px;" loop autoplay></lottie-player>
+        </span></h3>
+    <p class="text-center">Desenvolvido com 💙 por Leo Porto</p>
+
+    <lottie-player id="play" src="https://assets2.lottiefiles.com/packages/lf20_UfO75n.json" background="transparent"
+        speed="1" style="width: 300px; height: 300px;" loop autoplay></lottie-player>
+
+    <lottie-player id="congrats" src="https://assets1.lottiefiles.com/temp/lf20_PRvG5R.json" background="transparent"
+        speed="1" style="width: 300px; height: 300px;" loop autoplay></lottie-player>
+
+
+    <lottie-player id="errada" src="https://assets2.lottiefiles.com/packages/lf20_JCJuqs.json" background="transparent"
+        speed="1" style="width: 300px; height: 300px;" loop autoplay>
+    </lottie-player>
+    <lottie-player id="certa" src="https://assets3.lottiefiles.com/private_files/lf30_69xqinly.json"
+        background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay>
+    </lottie-player>
+
+
+    <div class="container rounded animate__animated m-2" id="q1">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+
+                    <div class="card-header mx-auto text-center">
+
+                        <lottie-player src="https://assets8.lottiefiles.com/private_files/lf30_ogd1mzuf.json"
+                            background="transparent" speed="1" style="width: 200px; height: 200px;" loop autoplay>
+                        </lottie-player>
+                        <h3 class="card-title text-center ">Quais as notas da escala de F maior?</h3>
+
+                    </div>
+
+                    <div class="card-body">
+
+                        <h6 class=" p-2" id="q1_errada1">a) F G A B C D E F</h6>
+                        <h6 class=" p-2" id="q1_errada2">B) F G A Bb C D Eb F</h6>
+                        <h6 class=" p-2" id="q1_certa">C) F G A Bb C D E F</h6>
+                        <h6 class=" p-2" id="q1_errada3">D) F G# A B C D E F</h6>
+
+
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------------------------------------------------------------------- -->
+
+
+    <div class="container rounded animate__animated m-2" id="q2">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+
+                    <div class="card-header mx-auto text-center">
+
+                        <lottie-player src="https://assets8.lottiefiles.com/private_files/lf30_ogd1mzuf.json"
+                            background="transparent" speed="1" style="width: 200px; height: 200px;" loop autoplay>
+                        </lottie-player>
+                        <h3 class="card-title text-center ">Quais as notas da escala de Bm melódica?</h3>
+
+                    </div>
+
+                    <div class="card-body">
+
+                        <h6 class=" p-2" id="q2_certa">a) B C# D E F# G# A# B</h6>
+                        <h6 class=" p-2" id="q2_errada2">B) B C# D# E F# G# A# B</h6>
+                        <h6 class=" p-2" id="q2_errada1">C) B C D E F G# A# B</h6>
+                        <h6 class=" p-2" id="q2_errada3">D) B C D E F G A B</h6>
+
+
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------------------------------------------------------------------- -->
+
+    <div class="container rounded animate__animated m-2" id="q3">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+
+                    <div class="card-header mx-auto text-center">
+
+                        <lottie-player src="https://assets8.lottiefiles.com/private_files/lf30_ogd1mzuf.json"
+                            background="transparent" speed="1" style="width: 200px; height: 200px;" loop autoplay>
+                        </lottie-player>
+                        <h3 class="card-title text-center ">Quais as notas da escala de D lídio?</h3>
+
+                    </div>
+
+                    <div class="card-body">
+
+                        <h6 class=" p-2" id="q3_errada3">a) D E F G# A B C# D</h6>
+                        <h6 class=" p-2" id="q3_errada2">B) D E F G A B C D</h6>
+                        <h6 class=" p-2" id="q3_errada1">C) D E F# G A B C# D</h6>
+                        <h6 class=" p-2" id="q3_certa">D) D E F# G# A B C# D</h6>
+
+
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------------------------------------------------------------------------------- -->
+
+    <div class="container rounded animate__animated m-2" id="q4">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+
+                    <div class="card-header mx-auto text-center">
+
+                        <lottie-player src="https://assets8.lottiefiles.com/private_files/lf30_ogd1mzuf.json"
+                            background="transparent" speed="1" style="width: 200px; height: 200px;" loop autoplay>
+                        </lottie-player>
+                        <h3 class="card-title text-center ">Quais as notas da escala de Bb Jônio?</h3>
+
+                    </div>
+
+                    <div class="card-body">
+
+                        <h6 class=" p-2" id="q4_errada3">a) Bb C Db Eb F Gb Ab Bb</h6>
+                        <h6 class=" p-2" id="q4_errada2">B) Bb C Db Eb F G A Bb</h6>
+                        <h6 class=" p-2" id="q4_certa">C) Bb C D Eb F G A Bb</h6>
+                        <h6 class=" p-2" id="q4_errada1">D) Bb C D Eb F G Ab Bb</h6>
+
+
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------------------------------------------------------------------- -->
+
+    <div class="container rounded animate__animated m-2" id="q5">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+
+                    <div class="card-header mx-auto text-center">
+
+                        <lottie-player src="https://assets8.lottiefiles.com/private_files/lf30_ogd1mzuf.json"
+                            background="transparent" speed="1" style="width: 200px; height: 200px;" loop autoplay>
+                        </lottie-player>
+                        <h3 class="card-title text-center ">Quais as notas da escala de A mixolídio?</h3>
+
+                    </div>
+
+                    <div class="card-body">
+
+                        <h6 class=" p-2" id="q5_certa">a) A B C# D E F# G A</h6>
+                        <h6 class=" p-2" id="q5_errada2">B) A B C D E F# G A</h6>
+                        <h6 class=" p-2" id="q5_errada3">C) A Bb C D E F G A</h6>
+                        <h6 class=" p-2" id="q5_errada1">D) A B C# D E F G A</h6>
+
+
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------------------------------------------------------------------- -->
+    <div class="container rounded animate__animated m-2" id="q6">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+
+                    <div class="card-header mx-auto text-center">
+
+                        <lottie-player src="https://assets8.lottiefiles.com/private_files/lf30_ogd1mzuf.json"
+                            background="transparent" speed="1" style="width: 200px; height: 200px;" loop autoplay>
+                        </lottie-player>
+                        <h3 class="card-title text-center ">Quais as notas da escala de F Lídio?</h3>
+
+                    </div>
+
+                    <div class="card-body">
+
+                        <h6 class=" p-2" id="q6_errada1">a) F G A Bb C D E F</h6>
+                        <h6 class=" p-2" id="q6_errada2">B) F G Ab Bb C D Eb F</h6>
+                        <h6 class=" p-2" id="q6_errada3">C) F G Ab B C D E F</h6>
+                        <h6 class=" p-2" id="q6_certa">D) F G A B C D E F</h6>
+
+
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------------------------------------------------------------------- -->
+    <div class="container rounded animate__animated m-2" id="q7">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+
+                    <div class="card-header mx-auto text-center">
+
+                        <lottie-player src="https://assets8.lottiefiles.com/private_files/lf30_ogd1mzuf.json"
+                            background="transparent" speed="1" style="width: 200px; height: 200px;" loop autoplay>
+                        </lottie-player>
+                        <h3 class="card-title text-center ">Quais as notas da escala de E menor natural</h3>
+
+                    </div>
+
+                    <div class="card-body">
+
+                        <h6 class=" p-2" id="q7_errada3">a) E F# G# A B C# D# E</h6>
+                        <h6 class=" p-2" id="q7_errada2">B) E F G A B C D E</h6>
+                        <h6 class=" p-2" id="q7_certa">C) E F# G A B C D E</h6>
+                        <h6 class=" p-2" id="q7_errada1">D) E F# G# A B C D E</h6>
+
+
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------------------------------------------------------------------- -->
+    <div class="container rounded animate__animated m-2" id="q8">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+
+                    <div class="card-header mx-auto text-center">
+
+                        <lottie-player src="https://assets8.lottiefiles.com/private_files/lf30_ogd1mzuf.json"
+                            background="transparent" speed="1" style="width: 200px; height: 200px;" loop autoplay>
+                        </lottie-player>
+                        <h3 class="card-title text-center ">Quais as notas da escala de Eb Jônio?</h3>
+
+                    </div>
+
+                    <div class="card-body">
+
+                        <h6 class=" p-2" id="q8_errada1">a) Eb F Gb Ab Bb Cb Db Eb</h6>
+                        <h6 class=" p-2" id="q8_errada2">B) Eb Fb G Ab Bb C D Eb</h6>
+                        <h6 class=" p-2" id="q8_errada3">C) Eb F Gb Ab Bb C D Eb</h6>
+                        <h6 class=" p-2" id="q8_certa">D) Eb F G Ab Bb C D Eb</h6>
+
+
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------------------------------------------------------------------- -->
+    <div class="container rounded animate__animated m-2" id="q9">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+
+                    <div class="card-header mx-auto text-center">
+
+                        <lottie-player src="https://assets8.lottiefiles.com/private_files/lf30_ogd1mzuf.json"
+                            background="transparent" speed="1" style="width: 200px; height: 200px;" loop autoplay>
+                        </lottie-player>
+                        <h3 class="card-title text-center ">Quais as notas da escala de G lócrio?</h3>
+
+                    </div>
+
+                    <div class="card-body">
+
+                        <h6 class=" p-2" id="q9_certa">a) G Ab Bb C Db Eb F G</h6>
+                        <h6 class=" p-2" id="q9_errada2">B) G A B C D E F G</h6>
+                        <h6 class=" p-2" id="q9_errada3">C) G A Bb C D Eb F G</h6>
+                        <h6 class=" p-2" id="q9_errada1">D) G A Bb C D E F# G</h6>
+
+
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------------------------------------------------------------------- -->
+    <div class="container rounded animate__animated m-2" id="q10">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+
+                    <div class="card-header mx-auto text-center">
+
+                        <lottie-player src="https://assets8.lottiefiles.com/private_files/lf30_ogd1mzuf.json"
+                            background="transparent" speed="1" style="width: 200px; height: 200px;" loop autoplay>
+                        </lottie-player>
+                        <h3 class="card-title text-center ">Quais as notas da escala de C dórico?</h3>
+
+                    </div>
+
+                    <div class="card-body">
+
+                        <h6 class=" p-2" id="q10_errada1">a) C D E F G A B C</h6>
+                        <h6 class=" p-2" id="q10_errada2">B) C D Eb F G A B C</h6>
+                        <h6 class=" p-2" id="q10_errada3">C) C Db Eb F G Ab Bb C</h6>
+                        <h6 class=" p-2" id="q10_certa">D) C D Eb F G A Bb C</h6>
+
+
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="score">
+        <div class="row">
+            <div class="col">
+
+                <h4 class="text-center text-success">Acertos</h4>
+                <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_IyjgFt.json" background="transparent"
+                    speed="1" style="width: 100px; height: 100px;" loop autoplay></lottie-player>
+
+                <h3 id="numero_acertos" class="text-center text-success"></h3>
+
+            </div>
+            <div class="col">
+
+                <h4 class="text-center text-danger">Erros</h4>
+                <lottie-player src="https://assets9.lottiefiles.com/temp/lf20_yYJhpG.json" background="transparent"
+                    speed="1" style="width: 100px; height: 100px;" loop autoplay></lottie-player>
+                <h3 id="numero_erros" class="text-center text-danger"></h3>
+
+            </div>
+        </div>
+    </div>
+    <lottie-player id="reload" src="https://assets9.lottiefiles.com/packages/lf20_puZhau.json" background="transparent"
+        speed="1" style="width: 300px; height: 300px;" loop autoplay></lottie-player>
+    <!-- --------------------------------------------------------------------------------------- -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh6U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/teste.js"></script>
+</body>
+
+</html>
